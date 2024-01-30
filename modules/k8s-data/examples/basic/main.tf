@@ -1,6 +1,6 @@
 module "this" {
-    source = "../../"
-    cluster_name = "docs"
+  source       = "../../"
+  cluster_name = "docs"
 
 }
 
@@ -9,6 +9,6 @@ provider "digitalocean" {
 }
 
 output "all" {
-    value = module.this.k8s-data
-    sensitive = true
+  value     = module.this.k8s-data
+  sensitive = true
 }
