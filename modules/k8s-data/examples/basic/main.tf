@@ -1,7 +1,6 @@
 module "this" {
   source       = "../../"
   cluster_name = "docs"
-
 }
 
 provider "digitalocean" {
