@@ -34,8 +34,8 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_all-data"></a> [all-data](#output\_all-data) | n/a |
 | <a name="output_cluster_ca_certificate"></a> [cluster\_ca\_certificate](#output\_cluster\_ca\_certificate) | n/a |
-| <a name="output_host"></a> [host](#output\_host) | n/a |
-| <a name="output_k8s-data"></a> [k8s-data](#output\_k8s-data) | n/a |
+| <a name="output_endpoint"></a> [endpoint](#output\_endpoint) | n/a |
 | <a name="output_token"></a> [token](#output\_token) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
