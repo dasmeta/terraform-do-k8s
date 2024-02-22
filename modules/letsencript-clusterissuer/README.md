@@ -9,13 +9,13 @@ This module will set up a Let's Encrypt production cluster issuer for managing S
 |------|---------|
 | <a name="requirement_digitalocean"></a> [digitalocean](#requirement\_digitalocean) | 2.34.1 |
 | <a name="requirement_kubectl"></a> [kubectl](#requirement\_kubectl) | ~>1.14 |
+| <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | 2.26.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_digitalocean"></a> [digitalocean](#provider\_digitalocean) | 2.34.1 |
-| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | n/a |
+| <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | 2.26.0 |
 
 ## Modules
 
@@ -25,9 +25,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [kubernetes_manifest.dns-issuer](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/manifest) | resource |
-| [kubernetes_secret.dns-issuer](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/secret) | resource |
-| [digitalocean_kubernetes_cluster.cluster](https://registry.terraform.io/providers/digitalocean/digitalocean/2.34.1/docs/data-sources/kubernetes_cluster) | data source |
+| [kubernetes_manifest.dns-issuer](https://registry.terraform.io/providers/hashicorp/kubernetes/2.26.0/docs/resources/manifest) | resource |
+| [kubernetes_secret.dns-issuer](https://registry.terraform.io/providers/hashicorp/kubernetes/2.26.0/docs/resources/secret) | resource |
 
 ## Inputs
 
