@@ -51,5 +51,10 @@ This module automates the creation of a DigitalOcean cluster and the installatio
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_all-data"></a> [all-data](#output\_all-data) | n/a |
+| <a name="output_cluster_ca_certificate"></a> [cluster\_ca\_certificate](#output\_cluster\_ca\_certificate) | n/a |
+| <a name="output_endpoint"></a> [endpoint](#output\_endpoint) | n/a |
+| <a name="output_token"></a> [token](#output\_token) | n/a |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
