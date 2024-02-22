@@ -1,5 +1,7 @@
 # dns-issuer
 
+This module will set up a Let's Encrypt production cluster issuer for managing SSL certificates within your cluster.
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
