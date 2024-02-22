@@ -4,7 +4,6 @@ module "this" {
   cluster_name = "dev-stage"
   namespaces   = ["dev", "stage"]
   region       = "fra1"
-  do_token     = "digitalocean_token"
 
   node_pools = [{
     name       = "dev-stage"

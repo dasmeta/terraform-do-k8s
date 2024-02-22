@@ -39,7 +39,6 @@
 |------|-------------|------|---------|:--------:|
 | <a name="input_cluster_name"></a> [cluster\_name](#input\_cluster\_name) | Cluster Name | `string` | n/a | yes |
 | <a name="input_cluster_version"></a> [cluster\_version](#input\_cluster\_version) | Cluster version prefix | `string` | `"1.29."` | no |
-| <a name="input_do_token"></a> [do\_token](#input\_do\_token) | DO token | `string` | n/a | yes |
 | <a name="input_enable_cert_manager"></a> [enable\_cert\_manager](#input\_enable\_cert\_manager) | Enable cert-manager | `bool` | `true` | no |
 | <a name="input_enable_ingress_nginx"></a> [enable\_ingress\_nginx](#input\_enable\_ingress\_nginx) | Enable nginx ingress controller | `bool` | `true` | no |
 | <a name="input_enable_kube_prometheus_stack"></a> [enable\_kube\_prometheus\_stack](#input\_enable\_kube\_prometheus\_stack) | Enable kube prometheus stack | `bool` | `true` | no |
