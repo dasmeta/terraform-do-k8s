@@ -2,7 +2,7 @@ module "kube-prometheus-stack" {
   count = var.enable_kube_prometheus_stack ? 1 : 0
 
   source  = "terraform-module/release/helm"
-  version = "2.8.1"
+  version = "2.8.2"
 
   namespace  = "kube-prometheus-stack"
   repository = "https://prometheus-community.github.io/helm-charts"

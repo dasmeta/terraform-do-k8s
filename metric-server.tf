@@ -2,7 +2,7 @@ module "metrics-server" {
   count = var.enable_metrics_server ? 1 : 0
 
   source  = "terraform-module/release/helm"
-  version = "2.8.1"
+  version = "2.8.2"
 
   namespace  = "metrics-server"
   repository = "https://kubernetes-sigs.github.io/metrics-server/"

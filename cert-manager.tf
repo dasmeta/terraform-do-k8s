@@ -2,7 +2,7 @@ module "cert-manager" {
   count = var.enable_cert_manager ? 1 : 0
 
   source  = "terraform-module/release/helm"
-  version = "2.8.1"
+  version = "2.8.2"
 
   namespace  = "cert-manager"
   repository = "https://charts.jetstack.io"
