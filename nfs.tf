@@ -2,7 +2,7 @@ module "nfs-server" {
   count = var.enable_nfs_server ? 1 : 0
 
   source  = "terraform-module/release/helm"
-  version = "2.8.1"
+  version = "2.8.2"
 
   namespace  = "nfs-server"
   repository = "https://kubernetes-sigs.github.io/nfs-ganesha-server-and-external-provisioner/"

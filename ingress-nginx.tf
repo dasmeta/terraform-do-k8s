@@ -2,7 +2,7 @@ module "ingress-nginx" {
   count = var.enable_ingress_nginx ? 1 : 0
 
   source  = "terraform-module/release/helm"
-  version = "2.8.1"
+  version = "2.8.2"
 
   namespace  = "ingress-nginx"
   repository = "https://kubernetes.github.io/ingress-nginx"
